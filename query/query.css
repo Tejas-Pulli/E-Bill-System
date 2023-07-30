@@ -1,0 +1,76 @@
+/* title */
+#title {
+  background-color: #191919;
+}
+#titles {
+  background-color: #191919;
+  margin: 0, 0, 0, 0;
+}
+.container-fluid {
+  padding: 3% 5%;
+}
+
+/*to the main page text area  */
+.row {
+  padding: 4rem 0 1rem 0;
+}
+.names {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.pnames {
+  padding: 1rem 0rem;
+  color: darkgray;
+  font-family: "Roboto", sans-serif;
+}
+/* for that contact button */
+.container {
+  padding: 1rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #00ffff;
+  position: relative;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: #fff;
+  box-shadow: 1px 1px 9px 3px #00d1d1;
+}
+
+.btnc {
+  font-size: 1.3rem;
+}
+
+/* design for the card */
+.ppnames {
+  /* padding: 1rem 0rem; */
+  color: darkgray;
+  font-family: "Roboto", sans-serif;
+}
+input[type="text"] {
+    list-style: none;
+    color: white;
+    background-color: #191919;
+    border: none;
+    border-bottom: 0.1px solid rgba(0, 255, 255, 0.426);
+  }
+  input[type="text"]:focus {
+    background-color: #3c3b3b7b;
+  }
+  

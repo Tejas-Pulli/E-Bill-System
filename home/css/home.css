@@ -1,0 +1,154 @@
+/* design the homepage
+#title {
+  background-color: #191919;
+}
+.container-fluid {
+  padding: 3% 10%;
+}
+.nav-item {
+  padding: 0rem 1rem;
+} */
+
+/* title */
+#title {
+    background-color: #191919;
+  }
+  #titles {
+    background-color: #191919;
+    margin: 0,0,0,0;
+  }
+  .container-fluid {
+    padding: 3% 10%;
+  }
+  
+  /* navbar */
+  /* name  */
+  .navbar-brand {
+    font-family: "Manrope", sans-serif;
+    font-size: 2rem;
+  }
+  .navbar-brand:hover {
+    color: #ee1d52;
+  }
+  
+  /* navbar buttons */
+  
+  .navbar-nav {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .navbar-nav * {
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+  }
+  
+  .navbar-nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 1em;
+    padding: 0;
+  }
+  
+  .navbar-nav a {
+    padding: 0.5em 0.8em;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navbar-nav a::before,
+  .navbar-nav a::after {
+    content: "";
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all 0.35s ease;
+    opacity: 0;
+  }
+  
+  .navbar-nav a::before {
+    content: "";
+    right: 0;
+    top: 0;
+    border-top: 3px solid #6af2f0;
+    border-right: 3px solid #04ecf0;
+    transform: translate(-100%, 50%);
+  }
+  
+  .navbar-nav a:after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #04ecf0;
+  
+    border-left: 3px solid #6af2f0;
+    transform: translate(100%, -50%);
+  }
+  
+  .navbar-nav a:hover:before,
+  .navbar-nav a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
+  .navbar-nav a:hover {
+    color: #00ffff;
+  }
+  
+  /*to the main page text area  */
+  .row {
+    padding: 4rem 0 1rem 0;
+  }
+  .names {
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+    font-size: 5rem;
+    line-height: 1;
+  }
+  .namesl {
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  .pnames {
+    padding: 1rem 0rem;
+    color: darkgray;
+    font-family: "Roboto", sans-serif;
+  }
+  /* for that contact button */
+  .container {
+    padding: 1rem 0rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .a {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    color: #f4f4f4;
+  }
+  .btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #00ffff;
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+  .btn:hover {
+      color: #fff;
+      box-shadow: 1px 1px 9px 3px #00d1d1;
+    }
+  
+  .btnc{
+    font-size: 1.3rem;
+  }
+  /* margins
+   */
+   /* .nomargin{
+    margin: none;
+   } */

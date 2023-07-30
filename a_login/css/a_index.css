@@ -1,0 +1,67 @@
+table {
+    margin: 0 auto;
+    /* font-size: large; */
+    border: 1px solid #00ffff;
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+    font-size:4rem;
+    line-height: 1;
+}
+
+.pnames {
+    padding: 1rem 0rem;
+    
+    color: darkgray;
+    font-family: "Roboto", sans-serif;
+  }
+td,tr {
+    /* background-color: #E4F5D4; */
+    /* border: 1px solid #00ffff; */
+}
+
+th,
+td {
+    padding: 1rem 1rem;
+  
+    color: rgb(255, 248, 248);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+
+
+body{
+    background-color: #191919;
+}
+.outside{
+    padding: 3rem ;
+}
+
+/* <a href="a_logout.php">Logout</a> */
+/*  */
+
+/* that user open button */
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #00ffff;
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+    padding: 7px;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    box-shadow: 1px 1px 9px 3px #00d1d1;
+  }
+  
+  .btnc {
+    font-size: 1.3rem;
+  }

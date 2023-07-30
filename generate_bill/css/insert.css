@@ -1,0 +1,84 @@
+.row {
+  padding: 4rem 0 1rem 0;
+}
+.names {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.pnames {
+  padding-bottom: 1rem;
+  font-size: small;
+  color: darkgray;
+  font-family: "Roboto", sans-serif;
+}
+/* background */
+#title {
+  background-color: #191919;
+}
+#all {
+  background-color: #191919;
+  margin: 0, 0, 0, 0;
+  padding: 5rem 3rem 10.99rem 8rem;
+}
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* that button */
+.btn {
+  /* text-decoration: none; */
+  color: #fff;
+  border: 1px solid #00ffff;
+  position: relative;
+  overflow: hidden;
+  padding: 4px;
+  margin: 7px;
+}
+
+.btn:hover {
+  color: #fff;
+  box-shadow: 1px 1px 9px 3px #00d1d1;
+}
+
+.btnc {
+  font-size: 1.3rem;
+}
+
+.button,
+.row1 {
+  display: flex;
+}
+
+/* cards */
+.card-title {
+  color: white;
+}
+.card-text {
+  color: white;
+  padding: 3px;
+  display: flex;
+}
+.card-body {
+  background-color: #191919;
+  border: 0.1px solid rgba(0, 255, 255, 0.426);
+  text-align: justify;
+}
+
+.forflex {
+  align-content: center;
+}
+
+/* cp */
+input[type="text"] {
+  list-style: none;
+  color: white;
+  background-color: #191919;
+  border: none;
+  border-bottom: 0.1px solid rgba(0, 255, 255, 0.426);
+}
+input[type="text"]:focus {
+  background-color: #3c3b3b7b;
+}
